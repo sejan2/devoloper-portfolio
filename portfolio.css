@@ -4,12 +4,14 @@ body{
 }
 h1{
     font-size:50px;
-    
+}
+h2{
+    font-size:30px;
 }
 .orange{
     color:orange;
 }
-section{
+.Experience-area{
     display:flex;
     margin-bottom:100px;
 }
@@ -32,4 +34,32 @@ section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
+.expo{
+    width:50%;
+    
+    box-shadow: 10px 10px 40px gray;
+    margin-left:4%;
+    margin-right:4%;
+    padding-left:20px;
+    border-radius: 10px;
+   
+}
 
+.flexible-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+#webhero{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+#siju{
+    border-left: 7px solid;
+    border-image:linear-gradient(cyan,red);
+    border-image-slice:1;
+}
+footer p{
+    text-align:center;
+}
